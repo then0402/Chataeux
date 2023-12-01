@@ -1,0 +1,96 @@
+	body{
+		background-image: url("Homepage/bg2.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	navbar {
+		overflow: hidden;
+		background-color: #333;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.navbar a:hover {
+		background: #ddd;
+		color: black;
+	}
+	
+
+	h1{
+		font-size: 50px;
+		font-family: "Papyrus", fantasy;
+		color: maroon;
+		text-align: center;
+		text-shadow: 5px 5px 5px grey;
+		word-spacing: 14px;
+	}
+	
+	h2{
+		font-size: 30px;
+		color: black;
+		text-align: center;
+		text-shadow: 2px 2px grey;
+	}
+	
+	footer{
+		text-align:center; 
+		font-style:italic;
+	}
+	
+	hr{
+		width:80%; 
+		height:3px;
+		background-color: black;
+	}
+	
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	
+	.myDiv {
+		border: 5px solid maroon;
+		outline-style: outset;
+		width: 400px;
+		height: 175px;
+		align-items: center;
+		outline-color: grey;
+		text-align: justify;
+		padding-top: 40px;
+		padding-right: 60px;
+		padding-left: 60px;
+		padding-bottom: 60px;
+		margin: auto;
+	
+	}
+	
+	.searchform{
+		text-align: center;	
+	}
+	
+	.button{
+		background-color: silver;
+		color: black;
+		padding: 5px 10px;
+		border: none;
+		cursor: pointer;
+	}
+	
+	button:hover {
+		background-color: pink;
+	}

@@ -1,0 +1,44 @@
+
+	.div {
+		border: 3px solid black;
+		padding: 30px;
+		margin: 20px;
+		background-color: white;
+	}
+	
+	.baby {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		border: 3px solid purple;
+	}
+	
+	h3 {
+		color: maroon;
+		width: 100%; 
+		text-align: center; 
+		border-bottom: 2px solid maroon; 
+		line-height: 0.1em;
+		margin: 10px 0 20px; 
+	} 
+
+	h3 span { 
+		background:#fff; 
+		padding:0 10px; 
+	}
+	
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	td, th {
+		text-align: center;
+		padding: 8px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #dddddd;
+	}
